@@ -1,0 +1,44 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*creds*
+*credential*
+secret*
+*.pem
+*.crt
+*.p12
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# AgentCore CLI + CDK build output
+.cache/
+.cli/
+.llm-context/
+cdk.out/
+node_modules/
+package-lock.json
+*.assets
+cdk.context.json
+*.metadata.json
+
+# Logs, archives, screenshots
+*.log
+logs/
+*.zip
+screenshot_*.png
+screenshots/
+screencapture-*.png
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
